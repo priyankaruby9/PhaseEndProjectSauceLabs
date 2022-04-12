@@ -1,0 +1,4 @@
+StepDefs\LoginStepsSauceLabs.class
+StepDefs\ProductValidateStep.class
+StepDefs\TestRunner.class
+StepDefs\BaseClass.class

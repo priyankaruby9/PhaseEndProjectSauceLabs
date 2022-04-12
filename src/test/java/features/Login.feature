@@ -3,7 +3,7 @@ Feature: This feature is use to design the Login page of SauceLabs
   Background: Open the application
     Given User Launched the Sauce Labs Application on browser
     
-@Sanity
+
   Scenario Outline: Verify the login functionality for correct credentials
     When User enters the username "<Username>"
     And User enters the password "<Password>"
@@ -14,7 +14,7 @@ Feature: This feature is use to design the Login page of SauceLabs
       | Username        | Password     |
       | standard_user   | secret_sauce |
       | problem_user | secret_sauce |
-@Regression
+
   Scenario Outline: Validate the login functionality for incorrect credentials
     When User enters the username "<Username>"
     And User enters the password "<Password>"
