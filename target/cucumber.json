@@ -1,0 +1,251 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5164806400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launched the Sauce Labs Application on browser",
+            "match": {
+              "location": "LoginStepsSauceLabs.user_launched_the_sauce_labs_application_on_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T06:31:37.984Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2873812900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.Setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify the login functionality for correct credentials",
+        "description": "",
+        "id": "this-feature-is-use-to-design-the-login-page-of-saucelabs;verify-the-login-functionality-for-correct-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 337705900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 114540400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepsSauceLabs.user_enters_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91473500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepsSauceLabs.user_enters_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161191900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepsSauceLabs.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 615000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be landed on the home page",
+            "match": {
+              "location": "LoginStepsSauceLabs.user_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5149348200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launched the Sauce Labs Application on browser",
+            "match": {
+              "location": "LoginStepsSauceLabs.user_launched_the_sauce_labs_application_on_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T06:31:46.822Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2181774600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.Setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify the login functionality for correct credentials",
+        "description": "",
+        "id": "this-feature-is-use-to-design-the-login-page-of-saucelabs;verify-the-login-functionality-for-correct-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 175697200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 109828600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the username \"problem_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepsSauceLabs.user_enters_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93751500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepsSauceLabs.user_enters_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154880400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepsSauceLabs.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 878200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be landed on the home page",
+            "match": {
+              "location": "LoginStepsSauceLabs.user_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is use to design the Login page of SauceLabs",
+    "description": "",
+    "id": "this-feature-is-use-to-design-the-login-page-of-saucelabs",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
